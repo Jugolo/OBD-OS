@@ -1,3 +1,25 @@
 //this is the start file there help width show the data and handle the first user input
-include system;//this is the standart system class threre have custom system function.
+include system.SystemGUI;//this is the class there allow a class to be used for gui
+include system;//this is class used to handle main stuff like set current gui handler
 
+class MainHandler extends SystemGUI{
+  public static subCat = [];
+  
+  MainHandler(){
+    
+  }
+  
+  public function updateGUITick(){
+    for(i=0;i<this->screenWidth();i++){
+    
+    }
+  }
+  
+  private function screenWidth(){
+    return system.screenWidth() * system.screenHeight();
+  }
+}
+
+function main(arg){
+  system->setGUIHandler(new MainHandler());
+}

@@ -1,2 +1,2 @@
 # OBD-OS
-a complete program i Will use to allow a raspery pi compurter to be a media center
+This should end in a os there work as media center in a car and talk to the car via ODB-2 
